@@ -1,0 +1,22 @@
+{
+  "name": "rts-js2",
+  "version": "0.1.0",
+  "scripts": {
+    "webpack": "webpack",
+    "dev": "webpack-dev-server --hot",
+    "server": "nodemon server/index.js",
+    "start": "concurrently --raw 'npm run dev'"
+  },
+  "keywords": [
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-bundle-analyzer": "^2.11.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
